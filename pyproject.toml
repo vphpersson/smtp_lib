@@ -1,0 +1,7 @@
+[project]
+name = "smtp_lib"
+version = "0.1"
+dependencies = []
+
+[project.optional-dependencies]
+parse = ["ecs_py @ git+https://github.com/vphpersson/ecs_py.git"]
